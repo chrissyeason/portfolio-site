@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <Navigation />
-        <div className="thumbnail-container">
+        <div className="thumbnail-container">        
           <DoCoolShit />
           <CakePlease />
           <MeowWoof />

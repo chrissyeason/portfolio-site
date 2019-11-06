@@ -31,7 +31,7 @@
   padding: 5% 18% 2% 5%;
   color: #205063;
   position: relative;
-
+  text-transform: lowercase;
 }
 .modal-description a {
   color: #205063;
@@ -66,8 +66,22 @@
 .modal-body .img-container {
   padding-right: 12%;
 }
+.thumbnail img:hover {
+  background-color: rgba(0,0,0,.5);
+}
 .space {
   margin-bottom: 10%;
+}
+/* contact modal */
+#contact-info {
+  padding: 2% 0 0 4%;
+}
+#contact-info a {
+  line-height: 3;
+  font-size: 1rem;
+}
+#contact-info p {
+  line-height: 2;
 }
 
 /* media query for small screens */

@@ -25,21 +25,33 @@ class About extends Component{
             <div className="about-modal">
                 <Button color="white" onClick={this.toggle}><h5>about</h5></Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="Modal">
-                <ModalHeader className="modal-header" toggle={this.toggle}>About Chrissy</ModalHeader>
+                <ModalHeader className="modal-header" toggle={this.toggle}><h2>about me</h2></ModalHeader>
                 <ModalBody>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src={Resume}/>
-                </ModalBody>
-                <ModalFooter>
-                    <p>linkedin.com/in/chrissy-eason-designs</p>
+                <div className="modal-description">
+                    <p>I’m a frontend developer with a colorful career. I’ve played the 
+                        role of graphic designer, creative director, pastry chef, 
+                        cake decorator, manager, and most recently full-stack developer. 
+                        Combining clean code and responsive design really lights me up!  
+                    </p>
+                    
+                    <p>
+                        When I’m not playing with code I enjoy rock climbing, 
+                        hiking and really all things outdoors. 
+                    </p>
+                </div>
+                <div className="img-container">
+                    <img src={Resume} id="resume-container"/>
+                </div>
+                <hr/>
+                <div className="modal-description">
+                    <a href="http://linkedin.com/in/chrissy-eason-designs" target="_blank">linkedin.com/in/chrissy-eason-designs</a>
                     <br/>
-                    <p>github.com/chrissyeason</p>
-                </ModalFooter>
+                    <a href="http://github.com/chrissyeason" target="_blank">github.com/chrissyeason</a>
+                </div>
+                <hr/>
+                    <div className="space"></div>
+                </ModalBody>
+                
                 </Modal>
             </div>        
         )  
