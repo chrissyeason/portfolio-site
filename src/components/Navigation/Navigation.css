@@ -1,14 +1,26 @@
 .nav-bar {
     display: flex;
+    /* justify-content: space-between; */
 }
 .nav-right {
     display: flex;
-    margin: 5% 10% 0 40%;
+    margin: 5% 10% 0 0;
+    justify-content: space-between;
 }
 h4{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #205063;
-    margin: 5% 0 0 10%;
+    margin: 5% 40% 0 15%;
     font-size: 2rem;
+}
+.btn {
+    margin-right: 12%;
+}
+.btn:hover {
+    color: #3a738a;
+}
+h5 {
+    font-family: 'Lato', sans-serif;
+    
 }

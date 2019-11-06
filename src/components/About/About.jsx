@@ -23,7 +23,7 @@ class About extends Component{
 
       return(       
             <div className="about-modal">
-                <Button id="about-button" color="white" onClick={this.toggle}>about</Button>
+                <Button color="white" onClick={this.toggle}><h5>about</h5></Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="Modal">
                 <ModalHeader className="modal-header" toggle={this.toggle}>About Chrissy</ModalHeader>
                 <ModalBody>

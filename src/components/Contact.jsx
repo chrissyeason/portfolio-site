@@ -22,7 +22,7 @@ class Contact extends Component{
 
       return(       
             <div className="contact-modal">
-                <Button id="contact-button" color="white" onClick={this.toggle}>contact</Button>
+                <Button color="white" onClick={this.toggle}><h5>contact</h5></Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="Modal">
                 <ModalHeader className="modal-header" toggle={this.toggle}>About Chrissy</ModalHeader>
                 <ModalBody>

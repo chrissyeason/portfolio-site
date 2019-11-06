@@ -25,14 +25,30 @@ class MeowWoof extends Component{
     render(){
 
       return(       
-            <div className="MeowWoof-modal">
+            <div className="modal-thumbnail">
                 <img src={MeowWoofThumbnail} color="white" onClick={this.toggle} />
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="Modal">
-                <ModalHeader className="modal-header" toggle={this.toggle}>MeowWoof Rescue Mission </ModalHeader>
+                <ModalHeader className="modal-header" toggle={this.toggle}><h2>MeowWoof Rescue Mission</h2></ModalHeader>
                 <ModalBody>
-                    <img src={HomePage}/>
-                    <img src={indexPage}/>
-                    <img src={DogListPage}/>
+                    <div className="modal-description">
+                        <p>Meow Woof Rescue Mission was a group project. It is a full-stack application that uses 
+                            JavaScript, Express, and MongoDB to allow users to login
+                            and save their foster pet's information to the database and view 
+                            other available pets.
+                        </p>
+                        <a href="https://meow-woof-app.herokuapp.com/" target="_blank">meow-woof-app.herokuapp.com</a>
+                    </div>
+                    <div className="img-container">
+                        <img src={HomePage}/>
+                    </div>
+                    <div className="img-container">
+                        <img src={indexPage}/>
+                    </div>
+                    <div className="img-container">
+                        <img src={DogListPage}/>
+                    </div>
+                    <hr/>
+                    <div className="space"></div>
                 </ModalBody>
             
                 </Modal>
