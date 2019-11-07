@@ -4,7 +4,6 @@ import MeowWoofThumbnail from './thumbnail.jpg';
 import HomePage from './home-page.jpg';
 import indexPage from './index-page.jpg';
 import DogListPage from './dog-list-page.jpg';
-import './MeowWoof.css';
 
 class MeowWoof extends Component{
     constructor(props){

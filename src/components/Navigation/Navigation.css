@@ -1,6 +1,5 @@
 .nav-bar {
     display: flex;
-    /* justify-content: space-between; */
 }
 .nav-right {
     display: flex;
