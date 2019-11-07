@@ -11,7 +11,7 @@ h4{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #205063;
-    margin: 5% 40% 0 15%;
+    margin: 5% 40% 0 10%;
     font-size: 2rem;
 }
 .btn {
@@ -23,4 +23,19 @@ h4{
 h5 {
     font-family: 'Lato', sans-serif;
     
+}
+/* media query for small screens */
+@media only screen and (max-width: 600px) {
+    .nav-right {
+        display: block;
+    }
+    .nav-right .btn h5 {
+        text-align: right;
+    }
+    h4 {
+        text-align: left;
+    }
+    h5 {
+        text-align: right;
+      }
 }

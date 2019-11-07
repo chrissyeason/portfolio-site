@@ -58,7 +58,6 @@
 .modal-body img{
   max-width: 100%;
   margin: 10px 12% 10px 0px;
-  /* margin-right: 10%; */
   border: solid #e0e0e0 1px;
 }
 .modal-body .img-container {
@@ -88,11 +87,25 @@
   .modal-body img {
       width: 90vw;
   }
-  .Modal {
-      position: fixed;
-      top: -4%;
-      /* right: 15%; */
-      border-radius: 0;
+  .modal-dialog {
+    margin-right: 0;
     }
+
+  .thumbnail-container {
+    display: block;
+  }
+  .modal-description {
+    padding-right: 0
+  }
+  .modal-title h2 {
+    text-align: left;
+    padding-left: 10px;
+  }
+  .modal-body .img-container {
+    padding-right: 0;
+  }
+  #resume-container {
+    margin-left: 0;
+}
 }
 
