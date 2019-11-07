@@ -1,3 +1,8 @@
 #resume-container {
     margin-left: 5%;
 }
+#download-link {
+    padding-left: 5%;
+    color: #205063;
+    text-decoration: underline;
+}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import Resume from './resume.jpg';
+import Resume from './ChrissyEason-Resume.jpg';
+import ResumeDownload from './ChrissyEason-Resume.pdf';
 import './About.css';
 
 class About extends Component{
@@ -41,6 +42,7 @@ class About extends Component{
                 </div>
                 <div className="img-container">
                     <img src={Resume} id="resume-container"/>
+                    <a href={ResumeDownload} download="ChrissyEason-Resume.pdf" id="download-link">Download Resume</a>
                 </div>
                 <hr/>
                 <div className="modal-description">

@@ -11,11 +11,9 @@
   width: 100vw;
   margin-top: 5%;
   align-items: center;
-  padding-left:2%;
-  padding-right: 2%;
 }
 .modal-thumbnail img{
-  flex-grow: 1;
+  width: 100%;
 }
 .Modal {
   position: fixed;

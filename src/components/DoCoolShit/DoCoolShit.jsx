@@ -24,7 +24,7 @@ class DoCoolShit extends Component{
     render(){
 
       return(       
-            <div >
+            <div className="modal-thumbnail">
                 <img src={DoCoolShitThumbnail} className="modal-thumbnail" onClick={this.toggle} />
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="Modal">
                 <ModalHeader className="modal-header" toggle={this.toggle}>
