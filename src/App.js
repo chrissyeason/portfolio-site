@@ -10,6 +10,9 @@ import DoCoolShitThumbnail from './components/DoCoolShit/thumbnail.jpg';
 import CakePleaseThumbnail from './components/CakePlease/thumbnail-cake-please.jpg';
 import MeowWoofThumbnail from './components/MeowWoof/thumbnail.jpg';
 import AddThumbButtons from './AddThumbButtons';
+import LaVolpe from './components/LaVolpe/LaVolpe';
+import CedarDoor from './components/CedarDoor/CedarDoor';
+import Camp from './components/Camp/Camp';
 
 class App extends Component {
   constructor(){
@@ -42,6 +45,9 @@ class App extends Component {
       isCoolStateEmpty: true,
       isMeowStateEmpty: false,
       isCakeStateEmpty: false,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: false,
+      isCampEmpty: false,
     })
   }
   addMeow = ()=>{
@@ -51,6 +57,9 @@ class App extends Component {
       isMeowStateEmpty: true,
       isCoolStateEmpty: false,
       isCakeStateEmpty: false,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: false,
+      isCampEmpty: false,
     })
   }
   addCake = ()=>{
@@ -59,6 +68,42 @@ class App extends Component {
       isMeowStateEmpty: false,
       isCoolStateEmpty: false,
       isCakeStateEmpty: true,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: false,
+      isCampEmpty: false,
+    })
+  }
+  addLaVolpe = ()=>{
+    this.setState({
+      ...this.state,
+      isMeowStateEmpty: false,
+      isCoolStateEmpty: false,
+      isCakeStateEmpty: false,
+      isLaVolpeEmpty: true,
+      isCedarDoorEmpty: false,
+      isCampEmpty: false,
+    })
+  }
+  addCedarDoor = ()=>{
+    this.setState({
+      ...this.state,
+      isMeowStateEmpty: false,
+      isCoolStateEmpty: false,
+      isCakeStateEmpty: false,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: true,
+      isCampEmpty: false,
+    })
+  }
+  addCamp = ()=>{
+    this.setState({
+      ...this.state,
+      isMeowStateEmpty: false,
+      isCoolStateEmpty: false,
+      isCakeStateEmpty: false,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: false,
+      isCampEmpty: true,
     })
   }
   render(){
@@ -77,11 +122,22 @@ class App extends Component {
           {
             this.state.isCakeStateEmpty && <CakePlease />
           }
-
+          {
+            this.state.isLaVolpeEmpty && <LaVolpe />
+          }
+          {
+            this.state.isCedarDoorEmpty && <CedarDoor />
+          }
+          {
+            this.state.isCampEmpty && <Camp />
+          }
           <AddThumbButtons className="thumbnail-container"
                 addCool={this.addCool} 
                 addMeow={this.addMeow} 
                 addCake={this.addCake}
+                addLaVolpe={this.addLaVolpe}
+                addCedarDoor={this.addCedarDoor}
+                addCamp={this.addCamp}
                 />
           
 

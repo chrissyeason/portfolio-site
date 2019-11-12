@@ -5,12 +5,21 @@
 .App-header {
   
 }
-/* modal styles */
+/* component show styles */
 .thumbnail-container {
   display: flex;
   width: 100vw;
   margin-top: 5%;
   justify-content: center;
+}
+.thumbnail-container-2nd-row {
+  display: flex;
+  width: 100vw;
+  /* margin-top: 5%; */
+  justify-content: center;
+}
+.thumbnail-container-2nd-row img {
+  width: 100%;
 }
 .thumbnail-container img{
   width: 100%;
@@ -18,24 +27,9 @@
 .show-page {
   width: 90%;
   padding: 10%;
+  margin-left: 10%;
+}
 
-}
-.Modal {
-  position: fixed;
-  top: -4%;
-  right: 15%;
-  border-radius: 0;
-  max-height: 100vh;
-}
-.modal-content {
-  width: 75vw;
-}
-.modal-header {
-  padding: 5% 18% 2% 5%;
-  color: #205063;
-  position: relative;
-  text-transform: lowercase;
-}
 .description a {
   color: #205063;
   margin-top: 10px;
@@ -55,6 +49,44 @@
   font-family: 'Lato', sans-serif;
   margin-bottom: 2.5%;
 }
+.img-container img{
+  max-width: 90%;
+  margin-bottom: 15px;
+  border: solid #e0e0e0 1px;
+}
+#signage {
+  padding-left: 5%;
+}
+.LV-img-container img {
+  max-width: 85%;
+  margin-bottom: 15px;
+  border: none;
+}
+.img-container {
+  margin-top: 8%;
+}
+.thumbnail img:hover {
+  background-color: rgba(0,0,0,.5);
+}
+
+
+/* modal styles */
+.Modal {
+  position: fixed;
+  top: -4%;
+  right: 15%;
+  border-radius: 0;
+  max-height: 100vh;
+}
+.modal-content {
+  width: 75vw;
+}
+.modal-header {
+  padding: 5% 18% 2% 5%;
+  color: #205063;
+  position: relative;
+  text-transform: lowercase;
+}
 .modal-body {
   max-height: 100vh;
   overflow-y: auto;
@@ -65,17 +97,7 @@
   margin-right: 10%;
   margin-bottom: 10%;
 }
-.img-container img{
-  /* max-width: 100%;
-  margin: 10px 12% 10px 0px; */
-  border: solid #e0e0e0 1px;
-}
-.img-container {
-  margin-top: 8%;
-}
-.thumbnail img:hover {
-  background-color: rgba(0,0,0,.5);
-}
+
 .space {
   margin-bottom: 10%;
 }

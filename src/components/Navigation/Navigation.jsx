@@ -6,7 +6,11 @@ import './Navigation.css';
 function Navigation(){
     return(
         <div className="nav-bar">
-            <h4>Chrissy Eason</h4>
+            <div className="nav-header-left">
+                <h4>Chrissy Eason</h4>
+                <h5>frontend developer | designer</h5>
+            </div>
+            
             <div className="nav-right">
                 <About />
                 <Contact />
