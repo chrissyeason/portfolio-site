@@ -20,28 +20,25 @@ class CakePlease extends Component{
     render(){
 
       return(       
-            <div className="modal-thumbnail">
-                
-                    <div>              
+            <div className="show-page">
+                                 
                         <body>
+                            <div className="description">
                             <h2 id="top-page">Cake Please Recipes App</h2>
-                            <div className="modal-description">
                                 <p>Ruby on Rails is combined a with PostgreSQL database and React to build this full stack application 
                                     that allows the cake community to collaborate by uploading their own recipes.</p>
                             </div>
                             <div className="img-container">
                                 <img src={CakePleaseHomepage}/>
                             </div>
-                                <hr/>
+                                
                             <div className="img-container">
                                 <img src={RecipesPage}/>
                             </div>
-                            <hr />
+                           
                             <div className="space"></div> 
                         </body>
-                        </div> 
-
-                
+                  
             </div>        
         )  
     }  

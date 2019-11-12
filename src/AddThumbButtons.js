@@ -4,7 +4,7 @@ import MeowWoofThumbnail from './components/MeowWoof/thumbnail.jpg';
 import CakePleaseThumbnail from './components/CakePlease/thumbnail-cake-please.jpg';
 function AddThumbButton(props){
     return(
-        <div>
+        <div className="thumbnail-container">
             <img src={DoCoolShitThumbnail} className="modal-thumbnail" onClick={props.addCool} />
             <img src={MeowWoofThumbnail} color="white" onClick={props.addMeow} />
             <img src={CakePleaseThumbnail} color="white" onClick={props.addCake} />

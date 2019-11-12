@@ -10,10 +10,15 @@
   display: flex;
   width: 100vw;
   margin-top: 5%;
-  align-items: center;
+  justify-content: center;
 }
-.modal-thumbnail img{
+.thumbnail-container img{
   width: 100%;
+}
+.show-page {
+  width: 90%;
+  padding: 10%;
+
 }
 .Modal {
   position: fixed;
@@ -31,18 +36,24 @@
   position: relative;
   text-transform: lowercase;
 }
-.modal-description a {
+.description a {
   color: #205063;
   margin-top: 10px;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
-.modal-description p {
+.description p {
   font-size: 1rem;
   padding-right: 8%;
   font-family: 'Lato', sans-serif;
 }
-.modal-description {
-  padding: 0 20% 3% 3%;
+.description {
+  padding: 0 20% 3% 0%;
+}
+.description h2 {
+  text-align: left;
+  color: #205063;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2.5%;
 }
 .modal-body {
   max-height: 100vh;
@@ -54,13 +65,13 @@
   margin-right: 10%;
   margin-bottom: 10%;
 }
-.modal-body img{
-  max-width: 100%;
-  margin: 10px 12% 10px 0px;
+.img-container img{
+  /* max-width: 100%;
+  margin: 10px 12% 10px 0px; */
   border: solid #e0e0e0 1px;
 }
-.modal-body .img-container {
-  padding-right: 12%;
+.img-container {
+  margin-top: 8%;
 }
 .thumbnail img:hover {
   background-color: rgba(0,0,0,.5);

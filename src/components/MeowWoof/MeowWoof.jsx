@@ -20,11 +20,10 @@ class MeowWoof extends Component{
     render(){
 
       return(       
-            <div className="modal-thumbnail">
-                
-                    <div>
+            <div className="show-page">
+                  
                         <body>
-                            <div className="modal-description">
+                            <div className="description">
                                 <h2 id="top-page">MeowWoof App</h2>
                                 <p>Meow Woof Rescue Mission was a group project. It is a full-stack application that uses 
                                     JavaScript, Express, and MongoDB to allow users to login
@@ -32,6 +31,8 @@ class MeowWoof extends Component{
                                     other available pets.
                                 </p>
                                 <a href="https://meow-woof-app.herokuapp.com/" target="_blank">meow-woof-app.herokuapp.com</a>
+                                <br/>
+                                <a href="https://github.com/chrissyeason/Animal-AdoptionApp" target="_blank">github.com/chrissyeason/Animal-AdoptionApp</a>
                             </div>
                             <div className="img-container">
                                 <img src={HomePage}/>
@@ -42,10 +43,10 @@ class MeowWoof extends Component{
                             <div className="img-container">
                                 <img src={DogListPage}/>
                             </div>
-                            <hr/>
+                            
                             <div className="space"></div>
                         </body>
-                    </div> 
+                     
                 {/* // <img src={MeowWoofThumbnail} color="white" onClick={this.toggle} /> */}
 
 
