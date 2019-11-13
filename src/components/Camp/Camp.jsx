@@ -18,10 +18,10 @@ class Camp extends Component{
     render(){
 
       return(       
-            <div className="show-page">
+            <div className="show-page" id="top-page">
                     <body>
                         <div className="description">
-                        <h2 id="top-page">Camp Drunken Arrow Poster Art</h2>
+                        <h2>Camp Drunken Arrow Poster Art</h2>
      
                         </div>
 

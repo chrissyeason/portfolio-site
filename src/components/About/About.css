@@ -2,7 +2,10 @@
     margin-left: 5%;
 }
 #download-link {
-    padding-left: 5%;
+    padding-top: 10%;
     color: #205063;
-    text-decoration: underline;
+}
+
+#download-link:hover {
+    color: #3686a5;
 }

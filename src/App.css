@@ -9,7 +9,7 @@
 .thumbnail-container {
   display: flex;
   width: 100vw;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   justify-content: center;
 }
 .thumbnail-container-2nd-row {
@@ -71,33 +71,22 @@
 
 
 /* modal styles */
-.Modal {
-  position: fixed;
-  top: -4%;
-  right: 15%;
-  border-radius: 0;
-  max-height: 100vh;
-}
-.modal-content {
-  width: 75vw;
-}
 .modal-header {
-  padding: 5% 18% 2% 5%;
   color: #205063;
-  position: relative;
-  text-transform: lowercase;
+  padding-left: 5%;
 }
 .modal-body {
-  max-height: 100vh;
-  overflow-y: auto;
-  padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 6%;
 }
-.modal-dialog {
-  padding-right: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
+.modal-description a{
+  color: #205063;
+  line-height: 2.5;
 }
-
+.modal-description a:hover{
+  color: #3686a5;
+  line-height: 2.5;
+}
 .space {
   margin-bottom: 10%;
 }

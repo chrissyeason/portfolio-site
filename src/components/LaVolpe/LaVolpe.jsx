@@ -26,10 +26,10 @@ class LaVolpe extends Component{
     render(){
 
       return(       
-            <div className="show-page">
+            <div className="show-page"  id="top-page">
                     <body>
                         <div className="description">
-                        <h2 id="top-page">La Volpe Branding Campaign</h2>
+                        <h2>La Volpe Branding Campaign</h2>
                             <p>New Austin restaurant full branding project: 
                                 logo, business cards, menu, event brochure, 
                                 loyalty card, promotional postcard

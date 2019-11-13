@@ -22,10 +22,10 @@ class CedarDoor extends Component{
     render(){
 
       return(       
-            <div className="show-page">
+            <div className="show-page" id="top-page">
                     <body>
                         <div className="description">
-                        <h2 id="top-page">Cedar Door Restaurant</h2>
+                        <h2>Cedar Door Restaurant</h2>
                             <p>Signage and branding updates.
                             </p>
                             

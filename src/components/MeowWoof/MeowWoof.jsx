@@ -20,11 +20,11 @@ class MeowWoof extends Component{
     render(){
 
       return(       
-            <div className="show-page">
+            <div className="show-page" id="top-page">
                   
                         <body>
                             <div className="description">
-                                <h2 id="top-page">MeowWoof App</h2>
+                                <h2 >MeowWoof App</h2>
                                 <p>Meow Woof Rescue Mission was a group project. It is a full-stack application that uses 
                                     JavaScript, Express, and MongoDB to allow users to login
                                     and save their foster pet's information to the database and view 
