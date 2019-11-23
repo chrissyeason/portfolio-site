@@ -30,8 +30,8 @@ h4{
     margin-right: 20px;;
     font-size: 2rem;
 }
-.btn {
-    /* margin-right: 12%; */
+button {
+    border: none;
 }
 .btn:hover {
     color: #3a738a;
@@ -42,10 +42,23 @@ h5 {
     /* color: #8d9496; */
     color: #205063;
 }
+#home-button:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+    outline-color: white!important;
+    outline-style: none!important;
+    outline-width: 0px!important;
+}
+button.focus, button:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
 /* media query for small screens */
 @media only screen and (max-width: 600px) {
     .nav-right {
         display: block;
+        text-align: right;
     }
     .nav-right .btn h5 {
         text-align: right;
@@ -54,6 +67,21 @@ h5 {
         text-align: left;
     }
     h5 {
-        text-align: right;
+        text-align: left;
       }
+    #nav-header-left-small {
+        display: block;
+    }
+    #home-button:focus{
+        outline: 0!important;
+        box-shadow: none!important;
+        /* outline: 5px auto -webkit-focus-ring-color; */
+        outline-color: white!important;
+        outline-style: none!important;
+        outline-width: 0px!important;
+    }
+    button.focus, button:focus {
+        outline: 0;
+        box-shadow: none!important;
+    }
 }

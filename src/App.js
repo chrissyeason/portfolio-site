@@ -41,7 +41,6 @@ class App extends Component {
   addCool = () => {
     this.setState({
       ...this.state,
-      // isStateEmpty: false,
       isCoolStateEmpty: true,
       isMeowStateEmpty: false,
       isCakeStateEmpty: false,
@@ -53,7 +52,6 @@ class App extends Component {
   addMeow = ()=>{
     this.setState({
       ...this.state,
-      // isStateEmpty: false,
       isMeowStateEmpty: true,
       isCoolStateEmpty: false,
       isCakeStateEmpty: false,
@@ -106,10 +104,21 @@ class App extends Component {
       isCampEmpty: true,
     })
   }
+  goHome = ()=>{
+    this.setState({
+      ...this.state,
+      isMeowStateEmpty: false,
+      isCoolStateEmpty: false,
+      isCakeStateEmpty: false,
+      isLaVolpeEmpty: false,
+      isCedarDoorEmpty: false,
+      isCampEmpty: false,
+    })
+  }
   render(){
     return (
       <div className="App">
-          <Navigation />
+          <Navigation goHome={this.goHome}/>
           <div >   
 
           {

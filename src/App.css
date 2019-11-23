@@ -115,6 +115,9 @@
   .thumbnail-container {
     display: block;
   }
+  .thumbnail-container-2nd-row {
+    display: block;
+  }
   .modal-description {
     padding-right: 0
   }
@@ -127,6 +130,110 @@
   }
   #resume-container {
     margin-left: 0;
+  }
+  .nav-header-left {
+    display: block;
+  }
+  .nav-header-left h5 {
+    font-size: .9rem;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  button h4 {
+    font-size: 1.75rem;
+    margin-top: 25px;
+  }
+  button {
+    background-color: white;
+  }
+  .contact-modal {
+    margin-top: -15px;
+  }
+  .description h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  .description {
+    padding-left: 5%;
+  }
+  .img-container img {
+    max-width: 90%;
+    padding-left: 0;
+    margin-right: 10%;
+  }
+  .show-page {
+    width: 90%;
+    padding: 0;
+    margin-left: 10%;
+  }
 }
+@media only screen and (max-width: 768px) {
+  
+  .modal-body img {
+    width: 90vw;
+  }
+  .modal-dialog {
+  margin-right: 0;
+  }
+  .thumbnail-container {
+    display: block;
+  }
+  .thumbnail-container-2nd-row {
+    display: block;
+  }
+  .modal-description {
+    padding-right: 0
+  }
+  .modal-title h2 {
+    text-align: left;
+    padding-left: 10px;
+  }
+  .modal-body .img-container {
+    padding-right: 0;
+  }
+  #resume-container {
+    margin-left: 0;
+  }
+  .nav-header-left {
+    display: block;
+  }
+  .nav-header-left h5 {
+    font-size: .9rem;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  button h4 {
+    font-size: 1.75rem;
+    margin-top: 25px;
+  }
+  button {
+    background-color: white;
+  }
+  .contact-modal {
+    margin-top: 0px;
+  }
+  .description h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  .description {
+    padding-left: 5%;
+  }
+  .img-container img {
+    max-width: 90%;
+    padding-left: 0;
+    margin-right: 10%;
+  }
+  .show-page {
+    width: 90%;
+    padding: 0;
+    margin-left: 10%;
+  }
+  .nav-right {
+    padding-top: 12px;
+  }
+  #top-page {
+    margin-top: 5%;
+  }
 }
 

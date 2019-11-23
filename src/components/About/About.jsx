@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import Resume from './ChrissyEason-Resume.jpg';
 import ResumeDownload from './ChrissyEason-Resume.pdf';
 import './About.css';
 
